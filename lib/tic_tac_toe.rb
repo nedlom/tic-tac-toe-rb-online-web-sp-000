@@ -78,7 +78,7 @@ def over?(board)
 end
 
 def winner(board)
-  board[won?(board)[0]]
+  board[won?(board)[1]]
 end
 
 def play(board)

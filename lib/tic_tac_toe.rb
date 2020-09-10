@@ -87,7 +87,7 @@ def play(board)
   end
   
   if won?(board)
-    puts board[winner(board)[0]]
+    puts 
     #puts "Congratulations #{winner(board)}!"
   end
   
